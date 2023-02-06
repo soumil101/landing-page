@@ -38,7 +38,8 @@ a {
 .content {
     display: flex;
     flex: 1;
-    background-color: black;
+    background-image: url(./img/paranoiastudioscenter.png);
+    background-size: cover;
 }
 
 
