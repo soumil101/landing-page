@@ -37,11 +37,32 @@ a {
 
 .content {
     display: flex;
+    flex-direction: column;
     flex: 1;
-    background-image: url(./img/paranoiastudioscenter.png);
-    background-size: cover;
 }
 
+.celebimages {
+    display: flex;
+    flex-direction: column;
+    margin: 36px 20px;
+    gap: 20px;
+    width: 412px;
+    border-radius: 1000px;
+    border-width: 6px;
+    border-style: outset;
+    border-color: beige;
+    background-color: rgb(176, 159, 127);
+}
+
+.testimonial {
+    height: auto;
+    width: 400px;
+    gap: 20px;
+    border-radius: 1000px;
+    border-width: 6px;
+    border-style: inset;
+    border-color: wheat;
+}
 
 .header, .footer { 
     display: flex;
