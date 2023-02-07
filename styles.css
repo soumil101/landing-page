@@ -81,6 +81,11 @@ a {
     align-items: center;
     gap: 20px;
     background-color: wheat;
+    border-left: beige;
+    border-width: 0.6px;
+    border-style:groove;
+    border-color: bisque;
+    background-color: wheat;
 }
 
 button {
