@@ -3,11 +3,16 @@
   margin: 0;  
 }
 
+body {
+    display: flex;
+    flex: 1;
+}
+
 .container {
     display: flex;
     flex-direction: column;
     flex: 1 0 auto;
-    max-height: 100vh;
+    min-height: 100vh;
 }
 
 ul {
@@ -39,39 +44,38 @@ a {
 .content {
     display: flex;
     flex-direction: column;
-    flex: 1 0 auto;
+    flex: 1;
 }
 
 .celebimages {
     display: flex;
-    flex: 1;
+    flex: 1 0 0px;
     flex-direction: column-reverse;
+    justify-content: space-around;
     align-items: center;
-    margin: 36px 20px;
+    padding-top: 0px;
     gap: 20px;
     width: 182px;
-    border-radius: 10px;
+    /* border-radius: 10px;
     border-width: 6px;
-    border-style: outset;
-    border-color: beige;
-    background-color: rgb(176, 159, 127);
+    border-style:groove;
+    border-color: bisque; */
+    background-color: wheat;
 }
 
 .testimonial {
     height: auto;
-    width: 100px;
+    width: 120px;
     gap: 20px;
     border-radius: 1000px;
     border-width: 6px;
     border-style: inset;
-    border-color: wheat;
+    border-color: bisque;
 }
 
 .label{
-    justify-self: center;
-    align-self: center;
-    color: beige;
-    text-shadow: 0.5px 0.5px bisque;
+    color: rgb(14, 14, 1);
+    text-shadow: 1px 1px bisque;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
@@ -83,16 +87,16 @@ a {
     align-items: center;
     margin: 0;
     padding: 0px 64px;
+    border-top-style: groove;
     background-color: wheat;
-    border-color: aliceblue;
+    border-color: beige;
 }  
 
 .header {
-    border-bottom-style: solid;
-    border-width: 2px;
+    border-bottom-style: groove;
+    border-width: 6px;
 }
 
 .footer {
-    border-top-style: solid;
     border-width: 0.6px;
 }
