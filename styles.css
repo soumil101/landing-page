@@ -43,7 +43,6 @@ a {
 
 .content {
     display: flex;
-    flex-direction: column;
     flex: 1;
 }
 
@@ -56,16 +55,47 @@ a {
     padding-top: 0px;
     gap: 20px;
     width: 182px;
-    /* border-radius: 10px;
-    border-width: 6px;
+    border-right: beige;
+    border-width: 0.6px;
     border-style:groove;
-    border-color: bisque; */
+    border-color: bisque;
     background-color: wheat;
 }
 
+.shopsection {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+    flex: 3;
+    background-image: url(./img/paranoiastudioscenter.png);
+    background-size: cover;
+    opacity: 0.6;
+}
+
+.products {
+    display: flex;
+    flex: 1;
+    background-color: wheat;
+}
+
+button {
+    width: 500px;
+    padding: 20px;
+    margin-bottom: 40px;
+    border-radius: 100px;
+    border-style: ridge;
+    border-width: 2px;
+    background-color: wheat;
+    opacity: 1;
+}
+
 .testimonial {
+    display: flex;
+    flex: 1;
     height: auto;
-    width: 120px;
+    min-width: auto;
+    max-width: 100px;
     gap: 20px;
     border-radius: 1000px;
     border-width: 6px;
