@@ -20,8 +20,8 @@ ul {
 }
 
 img {
-    height: 100px;
-    width: 100px;
+    max-height: 100px;
+    max-width: 100px;
 }
 
 a {
@@ -66,7 +66,7 @@ a {
     width: 182px;
     border-right: beige;
     border-width: 0.6px;
-    border-style:groove;
+    border-style: groove;
     border-color: bisque;
     background-color: wheat;
 }
@@ -76,7 +76,7 @@ a {
     flex-direction: column;
     justify-content: end;
     align-items: center;
-    flex: 3;
+    flex: 2;
     background-image: url(./img/paranoiastudioscenter.png);
     background-size: cover;
     opacity: 0.6;
@@ -125,7 +125,7 @@ button {
     display: flex;
     flex: 1;
     height: auto;
-    max-width: 80px;
+    max-width: 400px;
     gap: 20px;
     border-radius: 100px;
     border-width: 6px;
